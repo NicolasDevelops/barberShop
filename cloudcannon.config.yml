@@ -1,0 +1,24 @@
+source: /
+collections_config:
+  src_content_blog:
+    path: src/content/blog
+    name: Src Content Blog
+    icon: account_box
+  src_admin:
+    path: src/admin
+    name: Src Admin
+    icon: cabin
+    disable_url: true
+  src_data:
+    path: src/_data
+    name: Src Data
+    icon: chat
+    disable_url: true
+paths:
+  static: public
+  uploads: public/uploads
+timezone: America/Toronto
+markdown:
+  engine: commonmark
+  options:
+    gfm: true
